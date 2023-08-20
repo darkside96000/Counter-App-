@@ -2,9 +2,29 @@
   text-align: center;
 }
 
+.A{
+  align-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  text-align-last: center;
+  -ms-flex-line-pack: center;
+  align-items: center;
+  background: #344151;
+}
+.B{
+-webkit-text-fill-color: #161477;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.C{
+  text-align: center;
+  flex-wrap: wrap;
+  text-size-adjust: 12px;
+  -webkit-text-fill-color: #344151;
+
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
